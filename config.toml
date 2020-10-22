@@ -1,4 +1,4 @@
-baseURL = "https://nttcom.github.io/nttcom/remote-work-handbook/"
+baseURL = "https://nttcom.github.io/remote-work-handbook/"
 languageCode = "ja"
 hasCJKLanguage = true
 
