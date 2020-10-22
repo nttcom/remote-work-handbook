@@ -1,0 +1,240 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+// Variable
+$com-blue: #004386;
+$com-yellow: #FDD000;
+$com-gray: #B8C2C8;
+$black: #333;
+$gray: #fafafa;
+$com-gradient-y: linear-gradient(90deg, rgba(182,113,0,1) 0%, rgba(253,208,0,1) 50%, rgba(254,234,191,1) 100%);
+$base-mg: 1.2rem;
+$base-pd: 1.2rem;
+$base-fs: 1.5rem;
+$base-lh: 1.6;
+$base-ff: "Noto Sans JP", "Hragino Sans", "Yu Gothic", "YuGothic", sans-serif;
+
+// Common
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: $base-fs;
+  line-height: $base-lh;
+  font-family: $base-ff;
+  color: $black;
+  box-sizing: border-box !important;
+}
+
+// Reset
+div, section, article,
+h1, h2, h3, h4, h5, h6,
+p, a, span, ul, ol, li, dd, dt, input, button,
+blockquote {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  letter-spacing: $base-fs * .1;
+}
+
+
+// Override
+.container {
+  max-width: 100%;
+}
+
+.book-menu {
+  flex: 0 0 20%;
+  font-size: $base-fs;
+  min-width: 192px;
+  nav {
+    width: 20%;
+    min-width: 192px;
+    padding: 0;
+    background-color: $gray;
+    h2 {
+      background-image: url(/logo.jpg);
+      width: 100%;
+      padding-top: 100%;
+      background-size: contain;
+      position: relative;
+      a {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+      span {
+        display: none;
+      }
+    }
+    ul {
+      font-size: $base-fs*.8;
+      padding: 0 $base-pd*2;
+      li {
+        margin: $base-mg*2 0;
+        a {
+          color: $com-blue;
+          font-weight: 400;
+          display: inline-block;
+          transition: all ease .3s;
+          position: relative;
+          &:hover {
+            opacity: 1;
+            font-weight: 700;
+          }
+          &:after {
+            content: "";
+            display: inline-block;
+            width: 0;
+            height: 1px;
+            background-color: $com-blue;
+            transition: all ease .3s;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+          }
+          &:hover:after {
+            width: 100%;
+          }
+        }
+        .active {
+          color: $com-blue;
+          display: inline-block;
+          font-weight: 700;
+          border-bottom: 1px solid $com-blue;
+          &:hover:after {
+            width: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.book-page {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.book-search {
+  width: 90%;
+  margin: 0 auto;
+  // あまり使わなさそうな気がするので一旦非表示
+  display: none;
+  input {
+    background-color: #fff;
+    border: 2px solid #eee;
+    padding: $base-pd;
+    border-radius: $base-pd*2;
+    margin: $base-mg*4 0 0 0;
+    font-size: $base-fs*0.75;
+    transition: all ease .3s;
+    &:focus {
+      outline: 0;
+      border: 2px solid $com-blue;
+    }
+  }
+}
+
+.markdown {
+  line-height: $base-lh;
+  width: 80%;
+  margin: 0 auto;
+  h1 {
+    font-size: $base-fs*2;
+    letter-spacing: $base-fs*2*.1;
+    line-height: $base-lh;
+    margin: $base-mg*4 0 0 0 !important;
+    color: $com-blue;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: $base-fs*1.5;
+    letter-spacing: $base-fs*1.5*.1;
+    line-height: $base-lh;
+    margin: $base-mg*4 0 0 0;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 4px;
+      background: $com-gradient-y;
+      position: absolute;
+      bottom: 6px;
+      left: 0;
+      border-radius: 4px;
+      z-index: -1000;
+    }
+  }
+  h3 {
+    font-size: $base-fs;
+    font-weight: 700;
+    margin: $base-mg 0 0 0;
+  }
+  a.anchor {
+    display: none;
+  }
+  p {
+    margin: $base-mg 0 0 0;
+  }
+  a.book-btn {
+    font-size: $base-fs;
+    padding: $base-pd;
+    margin-top: $base-mg*4;
+    background-color: #fff;
+    color: $com-blue;
+    border: 1px solid $com-blue;
+    transition: all ease .3s;
+    &:hover {
+      background-color: $com-blue;
+      color: #fff;
+    }
+  }
+}
+
+footer {
+  margin: $base-mg*4 0 0 0;
+  padding: 0 0 $base-pd 0;
+}
+
+#cust-footer {
+  width: 80%;
+  margin: 0 auto;
+  p {
+    text-align: center;
+    font-size: $base-fs;
+    color: $com-gray;
+  }
+}
+
+// Media Query
+@media screen and (max-width: 56rem){
+  .book-header {
+    display: block;
+    margin: 0;
+    strong {
+      display: none;
+    }
+    label {
+      padding: $base-pd*2;
+      margin-left: -$base-mg*2;
+    }
+  }
+  .markdown h1 {
+    margin: 0 !important;
+  }
+}
