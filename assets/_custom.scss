@@ -54,9 +54,11 @@ blockquote {
   flex: 0 0 20%;
   font-size: $base-fs;
   min-width: 192px;
+  max-width: 288px;
   nav {
     width: 20%;
     min-width: 192px;
+    max-width: 288px;
     padding: 0;
     background-color: $gray;
     h2 {
@@ -78,7 +80,7 @@ blockquote {
       }
     }
     ul {
-      font-size: $base-fs*.8;
+      font-size: $base-fs;
       padding: 0 $base-pd*2;
       li {
         margin: $base-mg*2 0;
@@ -182,8 +184,17 @@ blockquote {
   }
   h3 {
     font-size: $base-fs;
+    line-height: $base-lh;
     font-weight: 700;
-    margin: $base-mg 0 0 0;
+    margin: $base-mg*2 0 0 0;
+    border-left: 4px solid $com-yellow;
+    padding-left: $base-fs;
+  }
+  h4 {
+    line-height: $base-lh;
+  }
+  ul {
+    margin-left: $base-fs;
   }
   a.anchor {
     display: none;
