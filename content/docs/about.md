@@ -1,6 +1,6 @@
 ---
 title: "本書について"
-description: "本書が執筆された背景、目的など"
+description: "リモートワークハンドブックが執筆された背景、目的などを説明します。"
 weight: 1
 draft: false
 ---

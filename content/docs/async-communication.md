@@ -1,6 +1,7 @@
 ---
 title: "非同期コミュニケーション（ビジネスチャットなど）"
 weight: 20
+description: "相手と時を同じくせずコミュニケーションするときの Tips をまとめています。"
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
