@@ -1,5 +1,5 @@
 ---
-title: "トップページ"
+title: "NTT Com Remote Work Handbook"
 description: "NTT コミュニケーションズがまとめた、リモートワークにおける働き方の参考書です。"
 draft: false
 ---
