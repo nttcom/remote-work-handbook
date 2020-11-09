@@ -1,6 +1,6 @@
 {
-  "name": "リモートワーク ハンドブック",
-  "short_name": "リモートワーク ハンドブック",
+  "name": "NTT Com Remote Work Handbook",
+  "short_name": "NTT Com Remote Work Handbook",
   "start_url": "/remote-work-handbook/",
   "scope": "/remote-work-handbook/",
   "display": "standalone",
