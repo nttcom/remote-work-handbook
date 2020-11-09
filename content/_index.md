@@ -2,6 +2,8 @@
 title: "NTT Com Remote Work Handbook"
 description: "NTT コミュニケーションズがまとめた、リモートワークにおける働き方の参考書です。"
 draft: false
+date: 2020-10-22T00:00:00+09:00
+lastmod: 2020-11-09T14:03:00+09:00
 ---
 
 # リモートワーク ハンドブック
