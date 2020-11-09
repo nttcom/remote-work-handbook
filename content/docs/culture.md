@@ -1,6 +1,7 @@
 ---
 title: "文化"
 weight: 40
+description: "対面では発生しにくかった、リモートワークならではの困難に対する Tips をまとめています。"
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

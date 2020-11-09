@@ -1,6 +1,7 @@
 ---
 title: "同期コミュニケーション（オンライン会議など）"
 weight: 10
+description: "電話やオンライン会議など、相手と時を同じくしてコミュニケーションするときの Tips をまとめています。"
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

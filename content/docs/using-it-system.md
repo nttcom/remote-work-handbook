@@ -1,6 +1,7 @@
 ---
 title: "ITシステムの活用方法"
 weight: 30
+description: "SaaS型ITシステムを活用する方法をまとめています。"
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

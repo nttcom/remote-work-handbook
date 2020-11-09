@@ -2,7 +2,7 @@ baseURL = "https://nttcom.github.io/remote-work-handbook/"
 languageCode = "ja"
 hasCJKLanguage = true
 
-title = "リモートワーク ハンドブック"
+title = "NTT Com Remote Work Handbook"
 theme = "book"
 
 [markup]
@@ -62,3 +62,6 @@ theme = "book"
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
   # BookServiceWorker = true
+
+  # for Open Graph
+  title = "NTT Com Remote Work Handbook"

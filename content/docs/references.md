@@ -1,6 +1,7 @@
 ---
 title: "参考資料"
 weight: 999
+description: "さらに学びたい方に向けた資料集です。"
 # bookFlatSection: false
 bookToc: false
 # bookHidden: false
