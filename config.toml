@@ -65,5 +65,6 @@ theme = "book"
 
   # for Open Graph
   title = "NTT Com Remote Work Handbook"
-  images = ["logo.jpg"]
+  # og:image is defined at head.html
+  # images = ["logo.jpg"]
   description = "NTT コミュニケーションズがまとめた、リモートワークにおける働き方の参考書です。"
