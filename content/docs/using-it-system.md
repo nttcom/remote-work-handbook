@@ -7,6 +7,8 @@ description: "SaaS型ITシステムを活用する方法をまとめています
 # bookHidden: false
 # bookCollapseSection: false
 # bookComments: true
+date: 2020-10-22T00:00:00+09:00
+lastmod: 2020-11-09T14:03:00+09:00
 ---
 
 
