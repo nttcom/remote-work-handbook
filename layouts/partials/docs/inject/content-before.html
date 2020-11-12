@@ -1,0 +1,8 @@
+<!-- Google Tag Manager (noscript) -->
+{{ if not .Site.IsServer }}
+{{ if $.Site.Params.google_tag_manager }}
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ $.Site.Params.google_tag_manager }}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{{ end }}
+{{ end }}
+<!-- End Google Tag Manager (noscript) -->
