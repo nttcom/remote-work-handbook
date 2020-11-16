@@ -20,4 +20,4 @@ NTT コミュニケーションズ株式会社の有志で整備した、リモ�
 なお issue は随時受け付けています。誤字の指摘や新たなセクションの案などあればお寄せください。
 
 ## Author
-c NTT Communications Corporation 2020
+© NTT Communications Corporation 2020
