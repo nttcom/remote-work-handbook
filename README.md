@@ -15,8 +15,9 @@ NTT コミュニケーションズ株式会社の有志で整備した、リモ�
 
 ## Contribution
 現在、 NTT コミュニケーションズ株式会社外からの pull request は受け付けておりません。あらかじめご了承ください。
-受付態勢が整った際にはこちらでお知らせいたします。
+受付態勢が整った際にはこちらでお知らせします。
 
+なお issue は随時受け付けています。誤字の指摘や新たなセクションの案などあればお寄せください。
 
 ## Author
-© NTT Communications Corporation 2020
+c NTT Communications Corporation 2020
