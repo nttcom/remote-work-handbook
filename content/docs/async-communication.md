@@ -35,7 +35,7 @@ lastmod: 2020-11-09T14:03:00+09:00
 
 もちろん検索はできるが、より効率的に情報へアクセスできるよう、重要な情報はストック情報として次のようなストック向けの場所に整理しておく。
 
-- Wiki （Qiita: Team, Confluenceなど）
+- Wiki （Qiita Team, Confluenceなど）
 - ノートアプリ（Evernote, Notion, OneNoteなど）
 - 社内向けWebサイト（SharePoint Onlineなど）
 
