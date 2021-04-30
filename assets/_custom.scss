@@ -197,7 +197,7 @@ blockquote {
     margin-left: $base-fs;
   }
   a {
-    word-break: break-all;
+    overflow-wrap: break-word;
   }
   a.anchor {
     display: none;
