@@ -196,6 +196,9 @@ blockquote {
   ul {
     margin-left: $base-fs;
   }
+  a {
+    overflow-wrap: break-word;
+  }
   a.anchor {
     display: none;
   }
