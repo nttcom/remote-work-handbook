@@ -19,7 +19,7 @@ NTT Communications Corporation 作『リモートワーク ハンドブック』
 
 ## 関連ハンドブック
 
-オンボーディングに特化したハンドブックとして、[オンボーディング ハンドブック](https://nttcom.github.io/onboarding-handbook/)も参照ください。
+オンボーディングに特化したハンドブックとして、 [オンボーディング ハンドブック](https://nttcom.github.io/onboarding-handbook/) も参照ください。
 
 ## 読み始める
 こちらから本編に進めます。
