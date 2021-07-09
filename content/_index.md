@@ -17,6 +17,10 @@ NTTコミュニケーションズ社内で製作したリモートワークハ�
 ## ライセンス
 NTT Communications Corporation 作『リモートワーク ハンドブック』は [クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンス](http://creativecommons.org/licenses/by-nc-sa/4.0/) で提供されています。
 
+## 関連ハンドブック
+
+オンボーディングに特化したハンドブックとして、 [オンボーディング ハンドブック](https://nttcom.github.io/onboarding-handbook/) も参照ください。
+
 ## 読み始める
 こちらから本編に進めます。
 
