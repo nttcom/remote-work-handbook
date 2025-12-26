@@ -67,7 +67,7 @@ theme = "book"
   title = "NTT Com Remote Work Handbook"
   # og:image is defined at head.html
   # images = ["logo.jpg"]
-  description = "NTT コミュニケーションズがまとめた、リモートワークにおける働き方の参考書です。"
+  description = "NTTドコモビジネスがまとめた、リモートワークにおける働き方の参考書です。"
 
   # Google Tag Manager
   google_tag_manager = "GTM-PX2HXS"
