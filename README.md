@@ -20,4 +20,4 @@ NTTドコモビジネス株式会社の有志で整備した、リモートワ�
 なお issue は随時受け付けています。誤字の指摘や新たなセクションの案などあればお寄せください。
 
 ## Author
-© NTT DOCOMO BUSINESS, Inc. ALL Rights Reserved.
+© NTT DOCOMO BUSINESS, Inc. All Rights Reserved.
